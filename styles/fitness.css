@@ -5,7 +5,9 @@
 }
 
 body {
-    /* padding: 1%; */
+    background-color: #111111;
+    /* display: flex;
+    justify-content: center;     */
 }
 
 /* Primary Font */
@@ -22,21 +24,21 @@ body {
     color: #E6533C;
 }
 
-nav {
+/* Navigation Bar CSS Styles */
+/* nav {
     background-color: #111111;
     display: flex;
     justify-content: center;
     
-}
+} */
 
 .navigation-bar {
-    width: 70%;
+    width: 80%;
     display: flex;
+    margin: 0 auto;
     align-items: center;
     justify-content: space-between;
-
     background-color: #111111;
-    padding: 0px;
 }
 
 .navigation {
@@ -46,6 +48,10 @@ nav {
     border: #26282a solid 1px;
     border-radius: 20px;
     padding: 2px 0px;
+}
+
+.navigation a {
+    text-decoration: none;
 }
 
 .logo {
@@ -74,4 +80,218 @@ nav {
     border-radius: 46px;
 }
 
+/* Banner Section CSS styles */
+.banner-section,
+.banner-section-2 {
+    /* background-color: #111111; */
+    display: flex;
+    justify-content: center;
+} 
 
+.banner-container-abba {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: #111111;
+}
+
+.banner-child1 {
+    width: 60%;
+    padding-right: 5%;
+}
+
+.banner-child1 h2 {
+    font-size: 4rem;
+    color: white;
+    font-weight: 900;
+    line-height: 110%;
+}
+
+.shape {
+    font-family: "Parisienne", cursive;
+    font-size: 6rem;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.banner-child1 p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding-top: 20px;
+    color: #FFFFFF80;
+}
+
+.banner-child2 {
+    width: 40%;
+}
+
+.banner-button-container {
+    padding-top: 20px;
+}
+
+.banner-button-container a {
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #E6533C;
+    color: white;
+    padding: 16px 40px;
+    border: none;
+    border-radius: 42px;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: white;
+    padding: 16px 40px;
+    border: whitesmoke 1px solid;
+    border-radius: 42px;
+}
+
+/* Banner Bottom Section */
+
+.banner-section-2-abba {
+    width: 80%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* background-color: #111111; */
+}
+
+.video-card {
+    padding: 15px;
+    background-color: #282828;
+    border-radius: 12px;
+    border: none;
+    align-items: center;
+}
+
+.video-card h2,
+.tutorial-card-text h2,
+.change-habbit-header {
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+}
+
+.video-card p,
+.tutorial-card-text p,
+.change-habbit-header p {
+    color: #FFFFFF80;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.tutorial-play {
+    margin-top: -70px;
+}
+
+.tutorial-card {
+    display: flex;
+    gap: 10px;
+    padding: 15px 20px;
+    margin-top: 120px;
+    border-radius: 12px;
+    border: none;
+    background-color: #282828;
+    align-items: center;
+}
+
+.tutorial-card img {
+    width:30px;
+    height: 30px;
+    margin-top: 4px;
+}
+
+/* Change your habbits Section */
+.change-your-habbit-container {
+    /* color:white; */
+}
+
+.change-habbit {
+    width: 70%;
+    padding: 20px 0px;
+    margin: 0 auto; 
+    text-align: center; 
+    color:white;
+  }
+
+  .change-habbit-header p {
+    padding: 20px 0px;
+  }
+
+  .change-habbit-features {
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    margin: 0 auto; 
+    text-align: center;
+    color:white;
+  }
+
+  .change-habbit-cards {
+    align-items: center;
+    padding: 1%;
+  }
+
+  .change-habbit-cards h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .change-habbit-cards p {
+    font-size: 14px;
+    font-weight: normal;
+    color: #FFFFFF80;
+  }
+
+  .change-habbit-cards img {
+    border-radius: 50%;
+    width: 50%;
+    padding-bottom: 10px;
+  }
+
+  .run-extra-section {
+    margin: 80px 0;
+  }
+
+  .run-extra-container {
+    background-color: #282828;
+    padding: 3%;
+    width: 65%;
+    margin: 0 auto;
+    gap: 15%;
+    display: flex;
+    color: white;
+    align-items: center;
+    border-radius: 18px;
+  }
+
+  .run-extra-text h2 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+  }
+
+  .run-extra-text p {
+    color: #FFFFFF80;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    padding: 14px 0px 35px 0px;
+  }
+
+
+  .run-extra-image {
+    width: 30%;
+  }
+
+  .run-extra-image img {
+    width: 100%;
+    border-radius: 18px;
+  }
+  
