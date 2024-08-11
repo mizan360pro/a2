@@ -295,3 +295,11 @@ body {
     border-radius: 18px;
   }
   
+
+  .bmi-calculator {
+    width: 60%;
+    padding: 20px 0px;
+    margin: 0 auto; 
+    text-align: center; 
+    color:white;
+  }
