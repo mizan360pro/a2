@@ -296,11 +296,14 @@ nav {
     padding: 3%;
     width: 65%;
     margin: 0 auto;
-    gap: 15%;
     display: flex;
     color: white;
     align-items: center;
-    border-radius: 18px;
+    border-radius: 1rem;
+  }
+
+  .run-extra-text {
+    flex: 0 0 60%;
   }
 
   .run-extra-text h2 {
@@ -311,20 +314,21 @@ nav {
 
   .run-extra-text p {
     color: #FFFFFF80;
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 120%;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
     padding: 14px 0px 35px 0px;
+    width: 80%;
   }
 
-
   .run-extra-image {
-    width: 30%;
+    flex: 0 0 40%;
   }
 
   .run-extra-image img {
-    width: 100%;
     border-radius: 18px;
+    width: 100%;
   }
   
 
