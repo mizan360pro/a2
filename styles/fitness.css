@@ -32,6 +32,10 @@ body {
     
 } */
 
+nav {
+    padding: 3rem 0;
+}
+
 .navigation-bar {
     width: 80%;
     display: flex;
@@ -44,10 +48,10 @@ body {
 .navigation {
     display: flex;
     justify-content: end;
-    gap: 15px;
+    gap: 1.13rem;
     border: #26282a solid 1px;
     border-radius: 20px;
-    padding: 2px 0px;
+    padding: 3px 4px;
 }
 
 .navigation a {
@@ -55,7 +59,7 @@ body {
 }
 
 .logo {
-    font-size: 1.2rem;
+    font-size: 2.25rem;
     font-weight: 900;
     font-style: italic;
     color: #E6533C;
@@ -66,14 +70,14 @@ body {
 .btn-nav {
     background-color: #111111;
     color: aliceblue;
-    font-size: 15px;
+    font-size: 1.13rem;
     padding: 6px 15px;
     border: none;
     border-radius: 46px;
 }
 .btn-nav:hover {
     background-color: #E6533C;
-    font-size: 15px;
+    font-size: 1.13rem;
     color: white;
     padding: 6px 15px;
     border: none;
@@ -99,26 +103,28 @@ body {
 
 .banner-child1 {
     width: 60%;
-    padding-right: 5%;
+    padding-right: 10%;
 }
 
 .banner-child1 h2 {
-    font-size: 4rem;
+    font-size: 4.8rem;
     color: white;
     font-weight: 900;
-    line-height: 110%;
+    line-height: 120%;
+    letter-spacing: 0%;
 }
 
 .shape {
-    font-family: "Parisienne", cursive;
-    font-size: 6rem;
-    font-weight: 300;
+    font-family: 'Miama', sans-serif;
+    font-size: 10rem;
+    font-weight: normal;
     font-style: normal;
 }
 
 .banner-child1 p {
+    width: 90%;
     font-size: 1rem;
-    line-height: 1.2rem;
+    line-height: 1.5rem;
     padding-top: 20px;
     color: #FFFFFF80;
 }
@@ -163,11 +169,16 @@ body {
 }
 
 .video-card {
-    padding: 15px;
-    background-color: #282828;
+    padding: 15px 20px;
     border-radius: 12px;
     border: none;
+    background-color: #303030e3;
     align-items: center;
+    position: relative;
+    top: -27rem;
+    left: 15rem;
+    width: 10rem;
+    height: 4rem;
 }
 
 .video-card h2,
@@ -187,18 +198,25 @@ body {
 }
 
 .tutorial-play {
-    margin-top: -70px;
+    position: relative;
+    top: -18rem;
+    left: -14rem;    
 }
 
 .tutorial-card {
     display: flex;
     gap: 10px;
     padding: 15px 20px;
-    margin-top: 120px;
+    /* margin-top: 120px; */
     border-radius: 12px;
     border: none;
-    background-color: #282828;
+    background-color: #303030e3;
     align-items: center;
+    position: relative;
+    top: -10.6rem;
+    left: -15rem;
+    width: 10rem;
+    height: 4rem;
 }
 
 .tutorial-card img {
@@ -207,14 +225,9 @@ body {
     margin-top: 4px;
 }
 
-/* Change your habbits Section */
-.change-your-habbit-container {
-    /* color:white; */
-}
-
 .change-habbit {
     width: 70%;
-    padding: 20px 0px;
+    padding-top: 7rem;
     margin: 0 auto; 
     text-align: center; 
     color:white;
@@ -226,6 +239,7 @@ body {
 
   .change-habbit-features {
     width: 70%;
+    padding-bottom: 3rem;
     display: flex;
     gap: 10px;
     margin: 0 auto; 
