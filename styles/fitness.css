@@ -306,8 +306,9 @@ nav {
     flex: 0 0 60%;
   }
 
-  .run-extra-text h2 {
-    font-size: 48px;
+  .run-extra-text h2, 
+  .bmi-calculator h2 {
+    font-size: 3rem;
     font-weight: 900;
     line-height: 120%;
   }
@@ -332,10 +333,114 @@ nav {
   }
   
 
-  .bmi-calculator {
-    width: 60%;
-    padding: 20px 0px;
-    margin: 0 auto; 
-    text-align: center; 
-    color:white;
-  }
+.bmi-calculator {
+  background-color: #222222;
+  color: white;
+}
+
+.bmi-calculator-heading {
+  width: 60%;
+  margin: auto;
+  padding-top: 5rem;
+}
+
+.bmi-calculator-container {
+  width: 80%;
+  display:flex;
+  margin: auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.bmi-calculator-container h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  /* margin-bottom: 0.6rem; */
+}
+
+.calculator-chart h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  padding-bottom: 3.25rem;
+}
+
+.bmi-calculator p {
+  color: #FFFFFF80;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  padding: 14px 0px 35px 0px;
+  width: 80%;
+}
+
+.calculator-chart {
+  flex: 0 0 45%;
+  padding: 1.5rem;
+} 
+.calculator-form {
+  flex: 0 0 55%;
+  padding: 1.5rem;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 0.5rem;
+    border: 2px solid #ffffff10;
+}
+
+th {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 120%;
+}
+
+td {
+  color: #FFFFFF80;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+}
+
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding-bottom: 4rem;
+}
+
+.input-group {
+  grid-column: 1 / span 2;
+}
+
+.input-group1,
+.input-group2 {
+  display: flex;
+}
+
+
+::placeholder {
+  color: #FFFFFF60;
+}
+
+input, select {
+  font-size: 0.875rem;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #FFFFFF10;
+  border-radius: 5px;
+  background-color: #FFFFFF10;
+  color: #FFFFFF80;
+}
+
+.calculator-form button {
+  margin-top: 1.5rem;
+}
