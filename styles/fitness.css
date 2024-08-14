@@ -32,7 +32,7 @@ body {
     
 } */
 
-nav {
+  nav {
     padding: 3rem 0;
 }
 
@@ -654,10 +654,9 @@ footer {
   color: #FFFFFF50;
 }
 
-
-
-
-
+.mobile-menu {
+  display: none;
+}
 
 
 
@@ -971,36 +970,24 @@ width: 100%;
   padding-bottom: 0;
 }
 
-  .footer-row {
+
+.footer-row {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: auto;
+ padding: 4.2rem 0 0;
+}
+  /* .footer-row {
     flex-direction: column;
-  }
+  } */
 
   .footer-links {
     flex-direction: column;
   }
 }
-
-
-
-
-
-
-
-  /* .btn-nav {
-    margin-bottom: 1rem;
-  }
-
-  /* Banner */
-
-
-
-
-  /* Change Your Habbits */
-
-
-  /* .change-habbit-cards {
-    width: 100%;
-  } */
 
 
 
