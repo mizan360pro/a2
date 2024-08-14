@@ -439,7 +439,6 @@ form {
   display: flex;
 }
 
-
 ::placeholder {
   color: #FFFFFF60;
 }
@@ -631,34 +630,6 @@ footer {
   padding: 4.2rem 0;
 }
 
-/* .column {
-  flex: 1;
-  margin-right: 2rem;
-}
-
-.column:last-child {
-  margin-right: 0;
-}
-
-.column h2 {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-}
-
-.column ul {
-  list-style: none;
-  padding: 0;
-}
-
-.column ul li {
-  margin-bottom: 0.5rem;
-}
-
-.column ul li a {
-  color: #fff;
-  text-decoration: none;
-} */
-
 .line {
   width: 100%;
   height: 2px;
@@ -681,5 +652,363 @@ footer {
   letter-spacing: 0.3px;
   font-weight: 200;
   color: #FFFFFF50;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive for Mobile Devices*/
+@media (max-width: 576px) {
+  /* Navigation */
+
+  .navigation {
+    display: none;
+  }
+
+  .mobile-menu {
+    justify-content: right;
+    display: flex;
+    color:#E6533C;
+  }
+
+  .mobile-menu img {
+    width:50%;
+  }
+
+  .banner-container-abba {
+    flex-direction: column;
+  }
+
+  .banner-child1, .banner-child2 {
+    width: 100%;
+  }
+
+  .banner-child1 h2{
+    font-size: 2.5rem;
+  }
+
+  .shape {
+    font-family: 'Miama', sans-serif;
+    font-size: 6rem;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .tutorial-play {
+    position: relative;
+    top: -6.8rem;
+    left: -13.3rem;
+    z-index: 1;
+}
+
+.banner-button-container {
+  width: 100%;
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-primary {
+  width: 100%;
+  background-color: #E6533C;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  padding: 7px 45px;
+  border: none;
+  border-radius: 42px;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  padding: 7px 45px;
+  border: whitesmoke 1px solid;
+  border-radius: 42px;
+}
+
+.banner-child1 {
+  width: 100%;
+  padding-right: 0;
+}
+
+.banner-child1 p {
+  width: 100%;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: normal;
+  line-height: 1.5rem;
+  letter-spacing: 0.5px;
+  padding-top: 20px;
+  color: #FFFFFF50;
+}
+
+.banner-section-2-abba {
+  display: none;
+}
+
+.change-habbit-features {
+  flex-direction: column;
+}
+
+.change-habbit {
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.change-habbit-header h2 {
+  font-size: 2rem;
+}
+
+.change-habbit-header p {
+  font-size: 0.8rem;
+  padding: 0.5rem 0 1.5rem;
+}
+
+.change-habbit-cards {
+  padding: 1rem;
 
 }
+
+.change-habbit-cards img {
+  width: 55%;
+}
+
+.change-habbit-cards h2 {
+  font-size: 1.13rem;
+  line-height: 120%;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.7rem;
+}
+
+.run-extra-container {
+  margin-top: -2rem;
+  width: 80%;
+  padding: 6%;
+  flex-direction: column;
+  /* margin: auto; */
+
+}
+
+.run-extra-text {
+  padding: 1.5rem;
+}
+
+.run-extra-text p {
+  color: #FFFFFF80;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  padding: 14px 0px 35px 0px;
+  width: 100%;
+}
+
+.run-extra-text h2, .bmi-calculator h2, .team-heading h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 120%;
+}
+
+.run-extra-image {
+  display: flex;
+  width: 85%;
+}
+
+.bmi-calculator-container {
+  flex-direction: column;
+}
+
+.bmi-calculator-heading {
+  width: 85%;
+  margin: auto;
+  padding-top: 5rem;
+  padding-bottom: 0;
+  text-align: left;
+}
+
+.bmi-calculator-container {
+  width: 85%;
+  align-items: center;
+  margin: 0;
+}
+
+.calculator-chart,
+.calculator-form {
+  margin-top: 1.5rem;
+  padding: 0;
+}
+
+.calculator-chart, .calculator-form {
+  width: 100%;
+}
+
+form {
+  grid-template-columns: 1fr;
+}
+
+.calculator-chart h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+}
+
+.bmi-calculator-container h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.bmi-calculator p {
+  color: #FFFFFF80;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  padding: 14px 0px 20px 0px;
+  /* width: 80%; */
+}
+
+.bmi-cal-width {
+  width: 85%;
+  display: block;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  /* align-content: space-around; */
+}
+
+.meet-our-team {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #111111;
+  padding: 2.5rem 0;
+}
+
+.team-heading {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding-bottom: 3.6rem;
+}
+
+.team-heading p {
+  width: 100%;
+}
+
+
+.team-members {
+  width: 85%;
+
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.team-member1,
+.team-member2,
+.team-member3,
+.team-member4,
+.team-member5,
+.team-member6 {
+width: 100%;
+}
+
+.footer-logo {
+  width: 100%;
+}
+
+.footer-logo p {
+  width: 100%;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #FFFFFF50;
+  line-height: 1.5rem;
+  letter-spacing: 0.5px;
+  padding-bottom: 2rem;
+}
+
+.footer-logo h4 {
+  font-size: 3rem;
+  font-weight: 800;
+  font-style: italic;
+  color: #E6533C;
+  padding-bottom: 1.2rem;
+  margin: 0px;
+}
+
+.footer-links h2 {
+  padding-bottom: 0;
+}
+
+  .footer-row {
+    flex-direction: column;
+  }
+
+  .footer-links {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+  /* .btn-nav {
+    margin-bottom: 1rem;
+  }
+
+  /* Banner */
+
+
+
+
+  /* Change Your Habbits */
+
+
+  /* .change-habbit-cards {
+    width: 100%;
+  } */
+
+
+
+
+
+
+
+
+
+
+
