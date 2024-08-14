@@ -307,7 +307,8 @@ nav {
   }
 
   .run-extra-text h2, 
-  .bmi-calculator h2 {
+  .bmi-calculator h2,
+  .team-heading h2 {
     font-size: 3rem;
     font-weight: 900;
     line-height: 120%;
@@ -333,29 +334,49 @@ nav {
   }
   
 
+/* BMI Calculator Styles */
 .bmi-calculator {
   background-color: #222222;
   color: white;
+  /* align-items: center; */
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .bmi-calculator-heading {
-  width: 60%;
+  width: 50%;
   margin: auto;
   padding-top: 5rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.bmi-cal-width {
+  width: 80%;
+  display: flex;
+  margin: auto;
 }
 
 .bmi-calculator-container {
-  width: 80%;
   display:flex;
-  margin: auto;
-  padding: 20px;
-  border-radius: 5px;
 }
 
 .bmi-calculator-container h3 {
   font-size: 1.75rem;
   font-weight: bold;
   /* margin-bottom: 0.6rem; */
+}
+
+.calculator-chart {
+  width: 40%;
+  padding: 1.5rem;
+  /* background-color: lightblue; */
+}
+
+.calculator-form {
+  width: 60%;
+  padding: 1.5rem;
+  /* background-color: lightgreen; */
 }
 
 .calculator-chart h3 {
@@ -371,20 +392,11 @@ nav {
   line-height: 1.5rem;
   letter-spacing: 1px;
   padding: 14px 0px 35px 0px;
-  width: 80%;
-}
-
-.calculator-chart {
-  flex: 0 0 45%;
-  padding: 1.5rem;
-} 
-.calculator-form {
-  flex: 0 0 55%;
-  padding: 1.5rem;
+  /* width: 80%; */
 }
 
 table {
-    width: 80%;
+    /* width: 80%; */
     border-collapse: collapse;
     border-radius: 4px;
     overflow: hidden;
@@ -443,4 +455,102 @@ input, select {
 
 .calculator-form button {
   margin-top: 1.5rem;
+}
+
+
+
+/* Meet our Team Styles */
+
+.meet-our-team {
+  background-color: #111111;
+  padding: 5.5rem 0;
+}
+
+.team-heading {
+  width: 60%;
+  margin: auto;
+  color:white;
+  margin-bottom: 3.6rem;
+}
+
+.team-heading p {
+  text-align: center;
+  color: #FFFFFF80;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.team-members {
+  width: 80%;
+  margin: auto;
+  padding: 1.25rem;
+  border-radius: 1rem;
+
+  background-color: #ffffff10;
+}
+
+.team-member {
+  border-radius: 1rem;
+  width: 33.33%;
+}
+
+.team-member img {
+    height:17rem;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white; /* Or any desired text color */
+    position: relative; /* Necessary for absolute positioning of text */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.team-members {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.team-member {
+  text-align: center;
+  background-color: #f0f0f0; /* Replace with your desired color */
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.team-member h3 {
+  font-weight: bold;
+}
+
+.team-member p {
+  margin: 0;
 }
