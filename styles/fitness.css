@@ -472,10 +472,13 @@ input, select {
   width: 60%;
   text-align: center;
   color:white;
-  margin-bottom: 3.6rem;
+  padding-bottom: 3.6rem;
 }
 
 .team-heading p {
+  width: 60%;
+  margin: auto;
+  padding-top: 0.7rem;
   text-align: center;
   color: #FFFFFF80;
   font-size: 0.875rem;
@@ -489,7 +492,7 @@ input, select {
   margin: auto;
   color: white;
   background-color: #FFFFFF10;
-  padding: 1rem;
+  padding: 1rem 1rem 0;
   border-radius: 1rem;
 }
 
@@ -560,4 +563,123 @@ input, select {
 
 .team-member6 {
   background-image: url('../images/darrell.png');
+}
+
+/* Footer Style */
+footer {
+  color: white;
+  background-color:#FFFFFF10;
+}
+
+.footer-container {
+  column-gap: 2rem;
+}
+
+.footer-logo {
+  width: 45%;
+}
+
+.footer-links {
+  width: 53%;
+  column-gap: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links ul {
+  list-style: none;
+  line-height: 2rem;
+  padding: 1rem 0;
+}
+
+.footer-links ul li a {
+  color: #FFFFFF50;
+  text-decoration: none;
+}
+
+.footer-logo h4 {
+  font-size: 4rem;
+  font-weight: 800;
+  font-style: italic;
+  color: #E6533C;
+  padding-bottom: 1.2rem;
+  margin: 0px;
+}
+
+.footer-logo p {
+  width: 70%;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #FFFFFF50;
+  line-height: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+.footer-links h2 {
+  font-size: 1.7rem;
+  line-height: 120%;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+.footer-row {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: auto;
+  padding: 4.2rem 0;
+}
+
+/* .column {
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.column:last-child {
+  margin-right: 0;
+}
+
+.column h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin-bottom: 0.5rem;
+}
+
+.column ul li a {
+  color: #fff;
+  text-decoration: none;
+} */
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff10; 
+}
+
+.copyright-section {
+  width: 80%;
+  margin: 0 auto;
+}
+.copyright {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.copyright p {
+  padding-bottom: 2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.3px;
+  font-weight: 200;
+  color: #FFFFFF50;
+
 }
