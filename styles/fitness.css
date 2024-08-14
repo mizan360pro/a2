@@ -359,6 +359,7 @@ nav {
 
 .bmi-calculator-container {
   display:flex;
+  margin: auto;
 }
 
 .bmi-calculator-container h3 {
@@ -467,8 +468,9 @@ input, select {
 }
 
 .team-heading {
-  width: 60%;
   margin: auto;
+  width: 60%;
+  text-align: center;
   color:white;
   margin-bottom: 3.6rem;
 }
@@ -485,72 +487,77 @@ input, select {
 .team-members {
   width: 80%;
   margin: auto;
-  padding: 1.25rem;
+  color: white;
+  background-color: #FFFFFF10;
+  padding: 1rem;
   border-radius: 1rem;
-
-  background-color: #ffffff10;
 }
 
 .team-member {
-  border-radius: 1rem;
-  width: 33.33%;
-}
-
-.team-member img {
-    height:17rem;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    color: white; /* Or any desired text color */
-    position: relative; /* Necessary for absolute positioning of text */
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.container {
-  max-width: 1200px; /* Adjust as needed */
-  margin: 0 auto;
-  padding: 20px;
-}
-
-h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.team-members {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
-.team-member {
-  text-align: center;
-  background-color: #f0f0f0; /* Replace with your desired color */
-  border: 1px solid #ddd;
-  padding: 20px;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .team-member h3 {
-  font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 120%;
+  position: relative;
+  top: 13rem;
+  left: 1.5rem;
 }
 
 .team-member p {
-  margin: 0;
+  font-size: 0.875rem;
+  font-weight: normal;
+  line-height: 120%;
+  color: #FFFFFF50;
+  position: relative;
+  top: 13.5rem;
+  left: 1.5rem;
+}
+
+.team-member1, 
+.team-member2, 
+.team-member3,
+.team-member4, 
+.team-member5,
+.team-member6 {
+  text-align: left;
+  text-align: start;
+  width: calc(33.33% - 1rem);
+  height: 17rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  background-color: #111111a4;
+  background-blend-mode:multiply;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.team-member1 {
+  background-image: url('../images/jerome-bell.png');
+}
+
+.team-member2 {
+  background-image: url('../images/cameron.png');
+}
+
+.team-member3 {
+  background-image: url('../images/russell.png');
+}
+
+.team-member4 {
+  background-image: url('../images/cody.png');
+}
+
+.team-member5 {
+  background-image: url('../images/theresa.png');
+}
+
+.team-member6 {
+  background-image: url('../images/darrell.png');
 }
